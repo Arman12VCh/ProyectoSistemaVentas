@@ -48,6 +48,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.12.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.12.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -248,25 +251,25 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="gulpfile.js" />
     <Content Include="Login.aspx" />
-    <Content Include="production\css\maps\jquery-jvectormap-2.0.3.css" />
-    <Content Include="production\images\american-express.png" />
-    <Content Include="production\images\cropper.jpg" />
-    <Content Include="production\images\favicon.ico" />
-    <Content Include="production\images\img.jpg" />
-    <Content Include="production\images\inbox.png" />
-    <Content Include="production\images\mastercard.png" />
-    <Content Include="production\images\media.jpg" />
-    <Content Include="production\images\paypal.png" />
-    <Content Include="production\images\picture.jpg" />
-    <Content Include="production\images\prod-1.jpg" />
-    <Content Include="production\images\prod-2.jpg" />
-    <Content Include="production\images\prod-3.jpg" />
-    <Content Include="production\images\prod-4.jpg" />
-    <Content Include="production\images\prod-5.jpg" />
-    <Content Include="production\images\user.png" />
-    <Content Include="production\images\visa.png" />
-    <Content Include="production\js\datepicker\daterangepicker.js" />
-    <Content Include="production\js\moment\moment.min.js" />
+    <Content Include="css\maps\jquery-jvectormap-2.0.3.css" />
+    <Content Include="images\american-express.png" />
+    <Content Include="images\cropper.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\img.jpg" />
+    <Content Include="images\inbox.png" />
+    <Content Include="images\mastercard.png" />
+    <Content Include="images\media.jpg" />
+    <Content Include="images\paypal.png" />
+    <Content Include="images\picture.jpg" />
+    <Content Include="images\prod-1.jpg" />
+    <Content Include="images\prod-2.jpg" />
+    <Content Include="images\prod-3.jpg" />
+    <Content Include="images\prod-4.jpg" />
+    <Content Include="images\prod-5.jpg" />
+    <Content Include="images\user.png" />
+    <Content Include="images\visa.png" />
+    <Content Include="js\datepicker\daterangepicker.js" />
+    <Content Include="js\moment\moment.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

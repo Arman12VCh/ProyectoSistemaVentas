@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CE_Categoria.vb" />
+    <Compile Include="CE_Cliente.vb" />
     <Compile Include="CE_Detalle_Ingreso.vb" />
     <Compile Include="CE_Detalle_Venta.vb" />
     <Compile Include="CE_Ingreso.vb" />
