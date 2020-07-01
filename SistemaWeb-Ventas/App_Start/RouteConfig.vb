@@ -17,5 +17,7 @@ Public Module RouteConfig
             url:="{controller}/{action}/{id}",
             defaults:=New With {.action = "Index", .id = UrlParameter.Optional}
         )
+
+        routes.MapPageRoute("Cliente", "Views/Forms/", "~/frmCliente.aspx")
     End Sub
 End Module

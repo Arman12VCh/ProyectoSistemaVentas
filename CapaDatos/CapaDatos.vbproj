@@ -64,9 +64,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CD_Categoria.vb" />
     <Compile Include="CD_Cliente.vb" />
     <Compile Include="CD_Conexion.vb" />
+    <Compile Include="CD_Marca.vb" />
+    <Compile Include="CD_Producto.vb" />
     <Compile Include="CD_Usuario.vb" />
+    <Compile Include="CD_Venta.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

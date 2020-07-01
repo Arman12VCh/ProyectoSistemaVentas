@@ -1,14 +1,16 @@
 ﻿Public Class CE_Cliente
 #Region "CAMPOS"
 	Private _ID_CLIENTE As Integer
+	Private _CODIGO As String
 	Private _NOMBRE As String
 	Private _APE_PATERNO As String
 	Private _APE_MATERNO As String
 	Private _DNI As String
-	Private _GENERO As Integer
+	Private _GENERO As String
 	Private _TELEFONO As String
 	Private _DIRECCION As String
 	Private _EMAIL As String
+	Private _ESTADO As String
 	Private _ELIM_LOGICO As Integer
 	Private _FECHA_INS As DateTime
 	Private _FECHA_UPD As DateTime
@@ -24,7 +26,14 @@
 			_ID_CLIENTE = value
 		End Set
 	End Property
-
+	Public Property CODIGO As String
+		Get
+			Return _CODIGO
+		End Get
+		Set(value As String)
+			_CODIGO = value
+		End Set
+	End Property
 	Public Property NOMBRE As String
 		Get
 			Return _NOMBRE
@@ -61,11 +70,11 @@
 		End Set
 	End Property
 
-	Public Property GENERO As Integer
+	Public Property GENERO As String
 		Get
 			Return _GENERO
 		End Get
-		Set(value As Integer)
+		Set(value As String)
 			_GENERO = value
 		End Set
 	End Property
@@ -94,6 +103,15 @@
 		End Get
 		Set(value As String)
 			_EMAIL = value
+		End Set
+	End Property
+
+	Public Property ESTADO As String
+		Get
+			Return _ESTADO
+		End Get
+		Set(value As String)
+			_ESTADO = value
 		End Set
 	End Property
 
@@ -136,10 +154,12 @@
 	Public Sub New()
 	End Sub
 
-	Public Sub New(ID_CLIENTE As Integer, NOMBRE As String, APE_PATERNO As String, APE_MATERNO As String, DNI As String,
-				   GENERO As Integer, TELEFONO As String, DIRECCION As String, EMAIL As String, ELIM_LOGICO As Integer,
+	Public Sub New(ID_CLIENTE As Integer, CODIGO As String, NOMBRE As String, APE_PATERNO As String,
+				   APE_MATERNO As String, DNI As String, GENERO As String, TELEFONO As String,
+				   DIRECCION As String, EMAIL As String, ESTADO As String, ELIM_LOGICO As Integer,
 				   FECHA_INS As Date, FECHA_UPD As Date, FECHA_DEL As Date)
 		_ID_CLIENTE = ID_CLIENTE
+		_CODIGO = CODIGO
 		_NOMBRE = NOMBRE
 		_APE_PATERNO = APE_PATERNO
 		_APE_MATERNO = APE_MATERNO
@@ -148,6 +168,7 @@
 		_TELEFONO = TELEFONO
 		_DIRECCION = DIRECCION
 		_EMAIL = EMAIL
+		_ESTADO = ESTADO
 		_ELIM_LOGICO = ELIM_LOGICO
 		_FECHA_INS = FECHA_INS
 		_FECHA_UPD = FECHA_UPD

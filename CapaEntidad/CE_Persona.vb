@@ -1,18 +1,25 @@
 ﻿Public Class CE_Persona
 #Region "CAMPOS"
     Private _ID_PERSONA As Integer
-    Private _TIPO_PERSONA As String
-    Private _NOM_PERSONA As String
-    Private _TIPO_DOCUMENTO As String
-    Private _NUM_DOCUMENTO As String
-    Private _DIRECCION As String
-    Private _TELEFONO As String
+    Private _NOMBRE As String
+    Private _APE_PATERNO As String
+    Private _APE_MATERNO As String
+    Private _DNI As String
+    Private _FECHA_NAC As DateTime
+    Private _GENERO As Integer
     Private _EMAIL As String
-    Private _FECHA_CREACION As DateTime
-    Private _ESTADO As Integer
+    Private _DIRECCION As String
+    Private _DEPARTAMENTO As String
+    Private _PROVINCIA As String
+    Private _DISTRITO As String
+    Private _TELEFONO As String
+    Private _ELIM_LOGICO As Integer
+    Private _FECHA_INS As DateTime
+    Private _FECHA_UPD As DateTime
+    Private _FECHA_DEL As DateTime
 #End Region
 #Region "PROPIEDADES"
-    Public Property ID_PERSONA() As Integer
+    Public Property ID_PERSONA As Integer
         Get
             Return _ID_PERSONA
         End Get
@@ -20,55 +27,62 @@
             _ID_PERSONA = value
         End Set
     End Property
-    Public Property TIPO_PERSONA() As String
+
+    Public Property NOMBRE As String
         Get
-            Return _TIPO_PERSONA
+            Return _NOMBRE
         End Get
         Set(value As String)
-            _TIPO_PERSONA = value
+            _NOMBRE = value
         End Set
     End Property
-    Public Property NOM_PERSONA() As String
+
+    Public Property APE_PATERNO As String
         Get
-            Return _NOM_PERSONA
+            Return _APE_PATERNO
         End Get
         Set(value As String)
-            _NOM_PERSONA = value
+            _APE_PATERNO = value
         End Set
     End Property
-    Public Property TIPO_DOCUMENTO() As String
+
+    Public Property APE_MATERNO As String
         Get
-            Return _TIPO_DOCUMENTO
+            Return _APE_MATERNO
         End Get
         Set(value As String)
-            _TIPO_DOCUMENTO = value
+            _APE_MATERNO = value
         End Set
     End Property
-    Public Property NUM_DOCUMENTO() As String
+
+    Public Property DNI As String
         Get
-            Return _NUM_DOCUMENTO
+            Return _DNI
         End Get
         Set(value As String)
-            _NUM_DOCUMENTO = value
+            _DNI = value
         End Set
     End Property
-    Public Property DIRECCION() As String
+
+    Public Property FECHA_NAC As Date
         Get
-            Return _DIRECCION
+            Return _FECHA_NAC
         End Get
-        Set(value As String)
-            _DIRECCION = value
+        Set(value As Date)
+            _FECHA_NAC = value
         End Set
     End Property
-    Public Property TELEFONO() As String
+
+    Public Property GENERO As Integer
         Get
-            Return _TELEFONO
+            Return _GENERO
         End Get
-        Set(value As String)
-            _TELEFONO = value
+        Set(value As Integer)
+            _GENERO = value
         End Set
     End Property
-    Public Property EMAIL() As String
+
+    Public Property EMAIL As String
         Get
             Return _EMAIL
         End Get
@@ -77,39 +91,110 @@
         End Set
     End Property
 
-    Public Property FECHA_CREACION() As DateTime
+    Public Property DIRECCION As String
         Get
-            Return _FECHA_CREACION
+            Return _DIRECCION
         End Get
-        Set(value As DateTime)
-            _FECHA_CREACION = value
+        Set(value As String)
+            _DIRECCION = value
         End Set
     End Property
 
-    Public Property ESTADO() As Integer
+    Public Property DEPARTAMENTO As String
         Get
-            Return _ESTADO
+            Return _DEPARTAMENTO
+        End Get
+        Set(value As String)
+            _DEPARTAMENTO = value
+        End Set
+    End Property
+
+    Public Property PROVINCIA As String
+        Get
+            Return _PROVINCIA
+        End Get
+        Set(value As String)
+            _PROVINCIA = value
+        End Set
+    End Property
+
+    Public Property DISTRITO As String
+        Get
+            Return _DISTRITO
+        End Get
+        Set(value As String)
+            _DISTRITO = value
+        End Set
+    End Property
+
+    Public Property TELEFONO As String
+        Get
+            Return _TELEFONO
+        End Get
+        Set(value As String)
+            _TELEFONO = value
+        End Set
+    End Property
+
+    Public Property ELIM_LOGICO As Integer
+        Get
+            Return _ELIM_LOGICO
         End Get
         Set(value As Integer)
-            _ESTADO = value
+            _ELIM_LOGICO = value
+        End Set
+    End Property
+
+    Public Property FECHA_INS As Date
+        Get
+            Return _FECHA_INS
+        End Get
+        Set(value As Date)
+            _FECHA_INS = value
+        End Set
+    End Property
+
+    Public Property FECHA_UPD As Date
+        Get
+            Return _FECHA_UPD
+        End Get
+        Set(value As Date)
+            _FECHA_UPD = value
+        End Set
+    End Property
+
+    Public Property FECHA_DEL As Date
+        Get
+            Return _FECHA_DEL
+        End Get
+        Set(value As Date)
+            _FECHA_DEL = value
         End Set
     End Property
 #End Region
     Public Sub New()
     End Sub
-    Public Sub New(ByVal ID_PERSONA As Integer, ByVal TIPO_PERSONA As Integer, ByVal NOM_PERSONA As String,
-                   ByVal TIPO_DOCUMENTO As String, ByVal NUM_DOCUMENTO As String, ByVal DIRECCION As String,
-                   ByVal TELEFONO As String, ByVal EMAIL As String, ByVal FECHA_CREACION As DateTime,
-                   ByVal ESTADO As Integer)
+
+    Public Sub New(ID_PERSONA As Integer, NOMBRE As String, APE_PATERNO As String, APE_MATERNO As String,
+                   DNI As String, FECHA_NAC As Date, GENERO As Integer, EMAIL As String, DIRECCION As String,
+                   DEPARTAMENTO As String, PROVINCIA As String, DISTRITO As String, TELEFONO As String,
+                   ELIM_LOGICO As Integer, FECHA_INS As Date, FECHA_UPD As Date, FECHA_DEL As Date)
         _ID_PERSONA = ID_PERSONA
-        _TIPO_PERSONA = TIPO_PERSONA
-        _NOM_PERSONA = NOM_PERSONA
-        _TIPO_DOCUMENTO = TIPO_DOCUMENTO
-        _NUM_DOCUMENTO = NUM_DOCUMENTO
-        _DIRECCION = DIRECCION
-        _TELEFONO = TELEFONO
+        _NOMBRE = NOMBRE
+        _APE_PATERNO = APE_PATERNO
+        _APE_MATERNO = APE_MATERNO
+        _DNI = DNI
+        _FECHA_NAC = FECHA_NAC
+        _GENERO = GENERO
         _EMAIL = EMAIL
-        _FECHA_CREACION = FECHA_CREACION
-        _ESTADO = ESTADO
+        _DIRECCION = DIRECCION
+        _DEPARTAMENTO = DEPARTAMENTO
+        _PROVINCIA = PROVINCIA
+        _DISTRITO = DISTRITO
+        _TELEFONO = TELEFONO
+        _ELIM_LOGICO = ELIM_LOGICO
+        _FECHA_INS = FECHA_INS
+        _FECHA_UPD = FECHA_UPD
+        _FECHA_DEL = FECHA_DEL
     End Sub
 End Class

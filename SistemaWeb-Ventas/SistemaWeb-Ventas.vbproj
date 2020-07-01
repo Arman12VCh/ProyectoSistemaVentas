@@ -156,7 +156,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="Views\Home\About.aspx" />
     <Content Include="build\css\custom.css" />
     <Content Include="build\css\custom.min.css" />
     <Content Include="build\images\back_disabled.png" />
@@ -168,41 +168,24 @@
     <Content Include="build\images\loading.gif" />
     <Content Include="build\js\custom.js" />
     <Content Include="build\js\custom.min.js" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Views\Home\Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="docs\css\animate.min.css" />
-    <Content Include="docs\css\bootstrap.min.css" />
-    <Content Include="docs\css\docs.min.css" />
-    <Content Include="docs\css\shCoreDefault.css" />
-    <Content Include="docs\fonts\css\font-awesome.css" />
-    <Content Include="docs\fonts\css\font-awesome.min.css" />
-    <Content Include="docs\fonts\fonts\fontawesome-webfont.svg" />
-    <Content Include="docs\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="docs\images\layout.png" />
-    <Content Include="docs\images\min_menu.png" />
-    <Content Include="docs\images\min_menu.tiff" />
-    <Content Include="docs\images\welcome.png" />
-    <Content Include="docs\images\welcome.tiff" />
-    <Content Include="docs\index.html" />
-    <Content Include="docs\js\bootstrap.min.js" />
-    <Content Include="docs\js\jquery.min.js" />
-    <Content Include="docs\js\shBrushXml.js" />
-    <Content Include="docs\js\shCore.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Forms\frmCategoria.aspx" />
-    <Content Include="Forms\frmCliente.aspx" />
-    <Content Include="Forms\frmIngreso.aspx" />
-    <Content Include="Forms\frmMarca.aspx" />
-    <Content Include="Forms\frmProducto.aspx" />
-    <Content Include="Forms\frmRol.aspx" />
-    <Content Include="Forms\frmUsuario.aspx" />
-    <Content Include="Forms\frmVenta.aspx" />
+    <Content Include="Views\Account\Login.aspx" />
+    <Content Include="Views\Forms\frmCategoria.aspx" />
+    <Content Include="Views\Forms\frmCliente.aspx" />
+    <Content Include="Views\Forms\frmIngreso.aspx" />
+    <Content Include="Views\Forms\frmMarca.aspx" />
+    <Content Include="Views\Forms\frmProducto.aspx" />
+    <Content Include="Views\Forms\frmRol.aspx" />
+    <Content Include="Views\Forms\frmUsuario.aspx" />
+    <Content Include="Views\Forms\frmVenta.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -213,45 +196,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="bower.json" />
-    <Content Include="docs\fonts\fonts\fontawesome-webfont.eot" />
-    <Content Include="docs\fonts\fonts\fontawesome-webfont.ttf" />
-    <Content Include="docs\fonts\fonts\fontawesome-webfont.woff" />
-    <Content Include="docs\fonts\fonts\FontAwesome.otf" />
-    <Content Include="docs\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="docs\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="docs\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="docs\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="docs\fonts\less\bordered-pulled.less" />
-    <Content Include="docs\fonts\less\core.less" />
-    <Content Include="docs\fonts\less\fixed-width.less" />
-    <Content Include="docs\fonts\less\font-awesome.less" />
-    <Content Include="docs\fonts\less\icons.less" />
-    <Content Include="docs\fonts\less\larger.less" />
-    <Content Include="docs\fonts\less\list.less" />
-    <Content Include="docs\fonts\less\mixins.less" />
-    <Content Include="docs\fonts\less\path.less" />
-    <Content Include="docs\fonts\less\rotated-flipped.less" />
-    <Content Include="docs\fonts\less\spinning.less" />
-    <Content Include="docs\fonts\less\stacked.less" />
-    <Content Include="docs\fonts\less\variables.less" />
-    <Content Include="docs\fonts\scss\font-awesome.scss" />
-    <Content Include="docs\fonts\scss\_bordered-pulled.scss" />
-    <Content Include="docs\fonts\scss\_core.scss" />
-    <Content Include="docs\fonts\scss\_fixed-width.scss" />
-    <Content Include="docs\fonts\scss\_icons.scss" />
-    <Content Include="docs\fonts\scss\_larger.scss" />
-    <Content Include="docs\fonts\scss\_list.scss" />
-    <Content Include="docs\fonts\scss\_mixins.scss" />
-    <Content Include="docs\fonts\scss\_path.scss" />
-    <Content Include="docs\fonts\scss\_rotated-flipped.scss" />
-    <Content Include="docs\fonts\scss\_spinning.scss" />
-    <Content Include="docs\fonts\scss\_stacked.scss" />
-    <Content Include="docs\fonts\scss\_variables.scss" />
     <Content Include="package.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="gulpfile.js" />
-    <Content Include="Login.aspx" />
-    <Content Include="css\maps\jquery-jvectormap-2.0.3.css" />
+    <Content Include="Content\css\maps\jquery-jvectormap-2.0.3.css" />
     <Content Include="images\american-express.png" />
     <Content Include="images\cropper.jpg" />
     <Content Include="images\favicon.ico" />
@@ -268,8 +216,8 @@
     <Content Include="images\prod-5.jpg" />
     <Content Include="images\user.png" />
     <Content Include="images\visa.png" />
-    <Content Include="js\datepicker\daterangepicker.js" />
-    <Content Include="js\moment\moment.min.js" />
+    <Content Include="Scripts\js\datepicker\daterangepicker.js" />
+    <Content Include="Scripts\js\moment\moment.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -298,9 +246,9 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="src\js\custom.js" />
-    <Content Include="src\js\examples.js" />
-    <Content Include="src\js\helpers\smartresize.js" />
+    <Content Include="Scripts\src\js\custom.js" />
+    <Content Include="Scripts\src\js\examples.js" />
+    <Content Include="Scripts\src\js\helpers\smartresize.js" />
     <Content Include="vendors\animate.css\animate.css" />
     <Content Include="vendors\animate.css\animate.min.css" />
     <Content Include="vendors\animate.css\gulpfile.js" />
@@ -3986,23 +3934,24 @@
     <Content Include="vendors\validator\index.html" />
     <Content Include="vendors\validator\multifield.js" />
     <Content Include="vendors\validator\validator.js" />
+    <Content Include="Views\Forms\WebForm1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
-    <Compile Include="About.aspx.designer.vb">
+    <Compile Include="Views\Home\About.aspx.designer.vb">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="About.aspx.vb">
+    <Compile Include="Views\Home\About.aspx.vb">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.vb">
+    <Compile Include="Views\Home\Contact.aspx.designer.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.vb">
+    <Compile Include="Views\Home\Contact.aspx.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -4013,71 +3962,71 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmCategoria.aspx.designer.vb">
+    <Compile Include="Views\Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\frmCategoria.aspx.designer.vb">
       <DependentUpon>frmCategoria.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmCategoria.aspx.vb">
+    <Compile Include="Views\Forms\frmCategoria.aspx.vb">
       <DependentUpon>frmCategoria.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmCliente.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmCliente.aspx.designer.vb">
       <DependentUpon>frmCliente.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmCliente.aspx.vb">
+    <Compile Include="Views\Forms\frmCliente.aspx.vb">
       <DependentUpon>frmCliente.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmIngreso.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmIngreso.aspx.designer.vb">
       <DependentUpon>frmIngreso.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmIngreso.aspx.vb">
+    <Compile Include="Views\Forms\frmIngreso.aspx.vb">
       <DependentUpon>frmIngreso.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmMarca.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmMarca.aspx.designer.vb">
       <DependentUpon>frmMarca.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmMarca.aspx.vb">
+    <Compile Include="Views\Forms\frmMarca.aspx.vb">
       <DependentUpon>frmMarca.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmProducto.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmProducto.aspx.designer.vb">
       <DependentUpon>frmProducto.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmProducto.aspx.vb">
+    <Compile Include="Views\Forms\frmProducto.aspx.vb">
       <DependentUpon>frmProducto.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmRol.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmRol.aspx.designer.vb">
       <DependentUpon>frmRol.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmRol.aspx.vb">
+    <Compile Include="Views\Forms\frmRol.aspx.vb">
       <DependentUpon>frmRol.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmUsuario.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmUsuario.aspx.designer.vb">
       <DependentUpon>frmUsuario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmUsuario.aspx.vb">
+    <Compile Include="Views\Forms\frmUsuario.aspx.vb">
       <DependentUpon>frmUsuario.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Forms\frmVenta.aspx.designer.vb">
+    <Compile Include="Views\Forms\frmVenta.aspx.designer.vb">
       <DependentUpon>frmVenta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmVenta.aspx.vb">
+    <Compile Include="Views\Forms\frmVenta.aspx.vb">
       <DependentUpon>frmVenta.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.designer.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.vb">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -4119,6 +4068,13 @@
     <Compile Include="Site.Mobile.Master.designer.vb">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Views\Forms\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -4145,8 +4101,8 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\web.config" />
-    <Content Include="src\scss\custom.scss" />
-    <Content Include="src\scss\daterangepicker.scss" />
+    <Content Include="Scripts\src\scss\custom.scss" />
+    <Content Include="Scripts\src\scss\daterangepicker.scss" />
     <Content Include="vendors\animate.css\.bower.json" />
     <Content Include="vendors\animate.css\animate-config.json" />
     <Content Include="vendors\animate.css\bower.json" />
@@ -5186,6 +5142,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\CapaDatos.vbproj">

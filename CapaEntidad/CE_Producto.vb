@@ -3,12 +3,14 @@
     Private _ID_PRODUCTO As Integer
     Private _FK_ID_CATEGORIA As CE_Categoria
     Private _FK_ID_MARCA As CE_Marca
-    Private _COD_PRODUCTO As String
-    Private _NOM_PRODUCTO As String
+    Private _CODIGO As String
+    Private _DESCRIPCION As String
     Private _PRECIO As Double
     Private _STOCK As Integer
-    Private _DESCRIPCION As String
-    Private _ESTADO As Integer
+    Private _ELIM_LOGICO As Integer
+    Private _FECHA_INS As DateTime
+    Private _FECHA_UPD As DateTime
+    Private _FECHA_DEL As DateTime
 #End Region
 #Region "PROOPIEDADES"
     Public Property ID_PRODUCTO() As Integer
@@ -35,20 +37,20 @@
             _FK_ID_MARCA = value
         End Set
     End Property
-    Public Property COD_PRODUCTO() As String
+    Public Property CODIGO() As String
         Get
-            Return _COD_PRODUCTO
+            Return _CODIGO
         End Get
         Set(value As String)
-            _COD_PRODUCTO = value
+            _CODIGO = value
         End Set
     End Property
-    Public Property NOM_PRODUCTO() As String
+    Public Property DESCRIPCION() As String
         Get
-            Return _NOM_PRODUCTO
+            Return _DESCRIPCION
         End Get
         Set(value As String)
-            _NOM_PRODUCTO = value
+            _DESCRIPCION = value
         End Set
     End Property
     Public Property PRECIO() As Double
@@ -67,37 +69,60 @@
             _STOCK = value
         End Set
     End Property
-    Public Property DESCRIPCION() As String
+
+    Public Property ELIM_LOGICO As Integer
         Get
-            Return _DESCRIPCION
-        End Get
-        Set(value As String)
-            _DESCRIPCION = value
-        End Set
-    End Property
-    Public Property ESTADO() As Integer
-        Get
-            Return _ESTADO
+            Return _ELIM_LOGICO
         End Get
         Set(value As Integer)
-            _ESTADO = value
+            _ELIM_LOGICO = value
         End Set
     End Property
+
+    Public Property FECHA_INS As Date
+        Get
+            Return _FECHA_INS
+        End Get
+        Set(value As Date)
+            _FECHA_INS = value
+        End Set
+    End Property
+
+    Public Property FECHA_UPD As Date
+        Get
+            Return _FECHA_UPD
+        End Get
+        Set(value As Date)
+            _FECHA_UPD = value
+        End Set
+    End Property
+
+    Public Property FECHA_DEL As Date
+        Get
+            Return _FECHA_DEL
+        End Get
+        Set(value As Date)
+            _FECHA_DEL = value
+        End Set
+    End Property
+
 #End Region
     Public Sub New()
     End Sub
-    Public Sub New(ByVal ID_PRODUCTO As Integer, ByVal FK_ID_CATEGORIA As CE_Categoria,
-                   ByVal FK_ID_MARCA As CE_Marca, ByVal COD_PRODUCTO As String, ByVal NOM_PRODUCTO As String,
-                   ByVal PRECIO As Double, ByVal STOCK As Integer, ByVal DESCRIPCION As String,
-                   ByVal ESTADO As Integer)
+
+    Public Sub New(ID_PRODUCTO As Integer, FK_ID_CATEGORIA As CE_Categoria, FK_ID_MARCA As CE_Marca, CODIGO As String,
+                   DESCRIPCION As String, PRECIO As Double, STOCK As Integer, ELIM_LOGICO As Integer, FECHA_INS As Date,
+                   FECHA_UPD As Date, FECHA_DEL As Date)
         _ID_PRODUCTO = ID_PRODUCTO
         _FK_ID_CATEGORIA = FK_ID_CATEGORIA
         _FK_ID_MARCA = FK_ID_MARCA
-        _COD_PRODUCTO = COD_PRODUCTO
-        _NOM_PRODUCTO = NOM_PRODUCTO
+        _CODIGO = CODIGO
+        _DESCRIPCION = DESCRIPCION
         _PRECIO = PRECIO
         _STOCK = STOCK
-        _DESCRIPCION = DESCRIPCION
-        _ESTADO = ESTADO
+        _ELIM_LOGICO = ELIM_LOGICO
+        _FECHA_INS = FECHA_INS
+        _FECHA_UPD = FECHA_UPD
+        _FECHA_DEL = FECHA_DEL
     End Sub
 End Class

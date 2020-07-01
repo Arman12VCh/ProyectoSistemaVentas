@@ -37,18 +37,45 @@ SistemaWeb-Ventas
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCategoria._TextBox1">
+<member name="F:SistemaWeb_Ventas.Login1._form1">
 <summary>
-Control TextBox1.
+control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCategoria._TextBox2">
+<member name="F:SistemaWeb_Ventas.frmCategoria._txtCategoria">
 <summary>
-Control TextBox2.
+Control txtCategoria.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmCategoria._btnNuevo">
+<summary>
+Control btnNuevo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmCategoria._btnCancelar">
+<summary>
+Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmCategoria._btnShowFormCli">
+<summary>
+Control btnShowFormCli.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -91,9 +118,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCliente._txtGenero">
+<member name="F:SistemaWeb_Ventas.frmCliente._rbtMales">
 <summary>
-Control txtGenero.
+Control rbtMales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmCliente._rbtFemale">
+<summary>
+Control rbtFemale.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -127,6 +163,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:SistemaWeb_Ventas.frmCliente._cbEstado">
+<summary>
+Control cbEstado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:SistemaWeb_Ventas.frmCliente._btnNuevo">
 <summary>
 Control btnNuevo.
@@ -136,27 +181,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCliente._btnEditar">
+<member name="F:SistemaWeb_Ventas.frmCliente._btnCancelar">
 <summary>
-Control btnEditar.
+Control btnCancelar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCliente._btnEliminar">
+<member name="F:SistemaWeb_Ventas.frmCliente._btnShowFormCli">
 <summary>
-Control btnEliminar.
+Control btnShowFormCli.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmCliente._GridView1">
+<member name="F:SistemaWeb_Ventas.frmCliente._tblCliente">
 <summary>
-Control GridView1.
+Control tblCliente.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -235,18 +280,45 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmMarca._TextBox1">
+<member name="F:SistemaWeb_Ventas.frmMarca._txtMarca">
 <summary>
-Control TextBox1.
+Control txtMarca.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:SistemaWeb_Ventas.frmMarca._TextBox2">
+<member name="F:SistemaWeb_Ventas.frmMarca._btnNuevo">
 <summary>
-Control TextBox2.
+Control btnNuevo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmMarca._btnCancelar">
+<summary>
+Control btnCancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmMarca._btnShowFormMarca">
+<summary>
+Control btnShowFormMarca.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaWeb_Ventas.frmMarca._tblMarca">
+<summary>
+Control tblMarca.
 </summary>
 <remarks>
 Campo generado automáticamente.
