@@ -26,3 +26,17 @@ C:\Users\ALEXIS\source\repos\SistemaWebVentas - VB\CapaDatos\obj\Debug\CapaDatos
 C:\Users\ALEXIS\source\repos\SistemaWebVentas - VB\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\ALEXIS\source\repos\SistemaWebVentas - VB\CapaDatos\obj\Debug\CapaDatos.xml
 C:\Users\ALEXIS\source\repos\SistemaWebVentas - VB\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\bin\Debug\CapaEntidad.xml
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.vbprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.vbproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.vbproj.CopyComplete
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\User\Documents\GitHub\ProyectoSistemaVentas\CapaDatos\obj\Debug\CapaDatos.pdb
